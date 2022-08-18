@@ -1,8 +1,8 @@
 {
-  "name": "@dashevo/insight-api",
-  "description": "A Dash blockchain REST and WebSocket API Service",
+  "name": "@vkax/insight-api",
+  "description": "A Vkax blockchain REST and WebSocket API Service",
   "version": "2.3.1",
-  "repository": "git://github.com/dashevo/insight-api.git",
+  "repository": "git://github.com/mydiscordbo/insight-api.git",
   "contributors": [
     {
       "name": "Gustavo Cortez",
@@ -38,19 +38,19 @@
     }
   ],
   "bugs": {
-    "url": "https://github.com/dashevo/insight-api/issues"
+    "url": "https://github.com/mydiscordbo/insight-api/issues"
   },
-  "homepage": "https://github.com/dashevo/insight-api",
+  "homepage": "https://github.com/mydiscordbo/insight-api",
   "license": "MIT",
   "keywords": [
     "insight",
     "insight api",
     "blockchain",
-    "dash api",
+    "vkax api",
     "blockchain api",
     "json",
-    "bitcore-dash",
-    "dashcore"
+    "bitcore-vkax",
+    "vkaxcore"
   ],
   "engines": {
     "node": ">=6"
@@ -61,7 +61,7 @@
   "main": "lib/index.js",
   "dependencies": {
     "async": "^2.6.1",
-    "@dashevo/dashcore-lib": "^0.17.2",
+    "@vkaxevo/vkaxcore-lib": "^0.17.2",
     "body-parser": "^1.18.3",
     "compression": "^1.7.3",
     "lodash": "^4.17.11",
